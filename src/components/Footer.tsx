@@ -23,7 +23,7 @@ export default function Footer() {
       id="contact"
       className="relative overflow-hidden border-t border-slate-200 bg-gradient-to-br from-orange-50 via-pink-50 to-violet-50 text-slate-900"
     >
-      {/* Background Decorations */}
+      
       <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-pink-300/20 blur-3xl" />
 
       <div className="pointer-events-none absolute -bottom-32 left-1/4 h-80 w-80 rounded-full bg-violet-300/20 blur-3xl" />
@@ -32,10 +32,10 @@ export default function Footer() {
 
       <div className="relative mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
 
-        {/* Main Footer */}
+       
         <div className="grid gap-12 lg:grid-cols-[1.8fr_1fr_1fr_1fr]">
 
-          {/* Brand */}
+        
           <div>
             <a
               href="#home"
@@ -53,10 +53,10 @@ export default function Footer() {
               building modern software.
             </p>
 
-            {/* Social Links */}
+          
             <div className="mt-6 flex items-center gap-3">
 
-              {/* GitHub */}
+            
               <a
                 href="https://github.com"
                 target="_blank"
@@ -74,7 +74,7 @@ export default function Footer() {
                 </svg>
               </a>
 
-              {/* X / Twitter */}
+            
               <a
                 href="https://twitter.com"
                 target="_blank"
@@ -92,7 +92,6 @@ export default function Footer() {
                 </svg>
               </a>
 
-              {/* LinkedIn */}
               <a
                 href="https://linkedin.com"
                 target="_blank"
@@ -112,7 +111,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Product */}
+        
           <div>
             <h3 className="text-xs font-bold uppercase tracking-[0.14em] text-slate-900">
               Product
@@ -134,7 +133,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
+         
           <div>
             <h3 className="text-xs font-bold uppercase tracking-[0.14em] text-slate-900">
               Company
@@ -157,7 +156,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+         
           <div>
             <h3 className="text-xs font-bold uppercase tracking-[0.14em] text-slate-900">
               Legal
@@ -181,7 +180,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+      
         <div className="mt-14 flex flex-col gap-4 border-t border-slate-200/80 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-slate-500">
             © 2026 DevStack. All rights reserved.

@@ -3,23 +3,22 @@ import bannerStack from "../assets/banner-stack.png";
 export default function Hero() {
   return (
     <section id="home" className="overflow-hidden bg-white">
-      <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 md:py-20 lg:grid-cols-2 lg:px-8 lg:py-24">
-        {/* Hero Content */}
+      <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 md:py-20 lg:grid-cols-2 lg:px-8 lg:py-24">    {/* Hero Content */}
         <div className="max-w-2xl">
           <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
             Build Your Ideal
-            <span className="brand-gradient-text block">
-              Development Stack
+      <span className="brand-gradient-text block">
+        Development Stack
             </span>
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-7 text-slate-600 sm:text-lg">
             Explore frontend, backend, database, and tooling options,
-compare them side by side, and put together the stack that fits your
-next project.
+         compare them side by side, and put together the stack that fits your
+    next project.
           </p>
 
-          {/* Buttons */}
+        
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#technologies"
@@ -37,15 +36,15 @@ next project.
           </div>
         </div>
 
-        {/* Hero Banner */}
+    
         <div className="relative flex justify-center lg:justify-end">
-          <img
+        <img
             src={bannerStack}
             alt="DevStack development technology stack"
             className="w-full max-w-lg object-contain"
           />
         </div>
-      </div>
+   </div>
     </section>
   );
 }

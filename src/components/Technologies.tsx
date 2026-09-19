@@ -92,7 +92,7 @@ export default function Technologies() {
         <div className="mb-10">
           <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">
             Explore The{" "}
-            <span className="text-[#EC4899]">Technologies</span>
+         <span className="text-[#EC4899]">Technologies</span>
           </h2>
 
           <p className="mt-3 max-w-2xl text-slate-600">
@@ -100,11 +100,11 @@ export default function Technologies() {
           </p>
         </div>
 
-        {/* Technologies + Stack */}
+       
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px]">
-          {/* Technology Grid */}
+       
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-            {technologies.map((technology) => (
+         {technologies.map((technology) => (
               <TechnologyCard
                 key={technology.id}
                 technology={technology}
@@ -114,9 +114,9 @@ export default function Technologies() {
             ))}
           </div>
 
-          {/* Your Stack */}
+          
           <YourStack
-            stack={stack}
+        stack={stack}
             onRemove={handleRemove}
             onRemoveAll={handleRemoveAll}
           />

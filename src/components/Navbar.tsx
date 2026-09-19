@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        {/* Mobile Menu Button */}
+    
         <button
           type="button"
          onClick={() => setMenuOpen(!menuOpen)}
@@ -42,13 +42,13 @@ export default function Navbar() {
      <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                strokeWidth={2}
+     strokeWidth={2}
                 d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           )}
         </button>
 
-        {/* Logo */}
+    
         <a
           href="#home"
           className="flex items-center"
@@ -61,7 +61,7 @@ export default function Navbar() {
           />
         </a>
 
-        {/* Desktop Navigation */}
+       
         <nav className="hidden items-center gap-7 lg:flex">
           {navLinks.map((link) => (
             <a
@@ -78,7 +78,6 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* Authentication Buttons */}
         <div className="flex items-center gap-2">
           <button className="hidden text-sm font-medium text-slate-600 transition-colors duration-200 hover:text-[#DB2777] sm:block">
             Sign In
@@ -89,7 +88,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+     
       {menuOpen && (
         <div className="border-t border-slate-200 bg-white lg:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col px-4 py-3 sm:px-6">
@@ -108,7 +107,6 @@ export default function Navbar() {
               </a>
             ))}
 
-            {/* Mobile Sign In */}
             <button className="mt-2 w-fit px-3 py-3 text-left text-sm font-medium text-slate-600 transition-colors hover:text-[#DB2777]">
               Sign In
             </button>

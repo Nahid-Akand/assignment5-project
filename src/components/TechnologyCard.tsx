@@ -28,7 +28,7 @@ export default function TechnologyCard({
         </span>
       </div>
 
-      {/* Content */}
+    
       <div className="mt-5 flex-1">
         <h3 className="text-xl font-bold text-slate-900">
           {technology.name}
@@ -49,7 +49,7 @@ export default function TechnologyCard({
         </div>
       </div>
 
-      {/* Bottom */}
+     
       <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-4">
         <div className="flex items-center gap-1">
           <span className="text-yellow-500">★</span>

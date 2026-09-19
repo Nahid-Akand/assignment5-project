@@ -18,7 +18,6 @@ export default function YourStack({
           <h2 className="text-xl font-bold text-slate-900">
             Your Stack
           </h2>
-
           <p className="mt-1 text-sm text-slate-500">
             {stack.length}{" "}
             {stack.length === 1 ? "Technology" : "Technologies"} Selected
@@ -51,7 +50,7 @@ export default function YourStack({
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white p-2">
                   <img
                     src={technology.icon}
-                    alt={`${technology.name} icon`}
+              alt={`${technology.name} icon`}
                     className="h-full w-full object-contain"
                   />
                 </div>
@@ -72,7 +71,7 @@ export default function YourStack({
                   aria-label={`Remove ${technology.name}`}
                   className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-slate-400 transition hover:bg-white hover:text-red-500"
                 >
-                  ✕
+                  
                 </button>
               </div>
             ))}
