@@ -127,7 +127,6 @@ export default function Footer() {
                   >
                     <span>{link.label}</span>
                     <span className="ml-2 -translate-x-1 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100">
-                      →
                     </span>
                   </a>
                 </li>
