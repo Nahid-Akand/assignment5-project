@@ -25,7 +25,7 @@ export default function Hero() {
               href="#technologies"
               className="rounded-full bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 px-6 py-3 text-center text-sm font-semibold text-white shadow-md transition duration-200 hover:-translate-y-0.5 hover:shadow-lg"
             >
-              Explore The Technologies
+              Explore Technologies
             </a>
 
             <a
