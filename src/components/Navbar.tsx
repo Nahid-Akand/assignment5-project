@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* Mobile Menu Button */}
         <button
           type="button"
-          onClick={() => setMenuOpen(!menuOpen)}
+         onClick={() => setMenuOpen(!menuOpen)}
           className="btn btn-ghost btn-sm lg:hidden"
           aria-label="Toggle navigation menu"
           aria-expanded={menuOpen}
@@ -29,8 +29,7 @@ export default function Navbar() {
               className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+              stroke="currentColor"  >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -39,19 +38,12 @@ export default function Navbar() {
               />
             </svg>
           ) : (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"  viewBox="0 0 24 24"  stroke="currentColor" >
+     <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
+                d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           )}
         </button>
@@ -91,7 +83,6 @@ export default function Navbar() {
           <button className="hidden text-sm font-medium text-slate-600 transition-colors duration-200 hover:text-[#DB2777] sm:block">
             Sign In
           </button>
-
           <button className="rounded-full bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
             Sign Up
           </button>
