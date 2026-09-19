@@ -14,9 +14,9 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-7 text-slate-600 sm:text-lg">
-            Discover the technologies that power modern applications. Compare
-            tools, explore their strengths, and create a technology stack that
-            fits your next project.
+            Explore frontend, backend, database, and tooling options,
+compare them side by side, and put together the stack that fits your
+next project.
           </p>
 
           {/* Buttons */}

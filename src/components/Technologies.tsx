@@ -96,8 +96,7 @@ export default function Technologies() {
           </h2>
 
           <p className="mt-3 max-w-2xl text-slate-600">
-            Pick the tools that match your project requirements and build a
-            development stack that works for you.
+            Pick one technology per category to build your ideal stack.
           </p>
         </div>
 
